@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Douce en Fleur — Fleuriste, Paris</title>
+<meta name="description" content="Douce en Fleur is a small Parisian-style florist on the quay. Seasonal bouquets, tied by hand every morning.">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav" id="top-nav">
+  <div class="nav-inner">
+    <a class="brand" href="#home">Douce en Fleur</a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu"><span></span></button>
+    <nav class="nav-links" id="site-menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <div class="has-sub">
+        <button class="sub-toggle" type="button" aria-expanded="false" aria-controls="products-menu">Products <span class="caret" aria-hidden="true"></span></button>
+        <ul class="submenu" id="products-menu">
+            <li><a href="for-her.html">For Her</a></li>
+            <li><a href="for-him.html">For Him</a></li>
+            <li><a href="for-them.html">For Them</a></li>
+        </ul>
+      </div>
+      <a href="#about">Our Story</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <img class="hero-img" src="images/hero.jpg" width="1536" height="1024" fetchpriority="high" alt="A bouquet of blush ranunculus, roses and eucalyptus in a cream vase, in soft window light">
+    <div class="hero-copy">
+      <div class="wrap">
+        <div>
+          <span class="overline">Fleurs pour les beaux moments</span>
+          <h1 id="hero-title">Flowers that speak <em>from the heart.</em></h1>
+          <p class="lede">A small Parisian-style florist on the quay. Seasonal bouquets, tied by hand every morning.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#products">Shop bouquets</a>
+            <a class="btn btn--text" href="#about">Our story</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="scroll-cue" aria-hidden="true"></span>
+  </section>
+
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <span class="overline">The art of flowers</span>
+        <h2 id="about-title">About Us</h2>
+        <p>Douce en Fleur is a small flower shop in the Philippines, inspired by the quiet elegance of French floristry and grounded in the warmth of home.</p>
+        <p>We work with local growers and only stock what is fresh and in season, so every bouquet reflects what is blooming nearby right now.</p>
+        <p>Every bouquet is arranged by hand and wrapped with care, whether it is for a birthday, a celebration or simply a quiet thank you.</p>
+      </div>
+      <blockquote class="pull">“Buy fewer flowers, buy them fresher, and let them look like they grew together.”</blockquote>
+    </div>
+  </section>
+
+  <section class="products" id="products" aria-labelledby="products-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="overline">Our flowers</span>
+        <h2 id="products-title">Products</h2>
+        <p>Our range changes with the market. Ask in the shop for what arrived this morning.</p>
+      </div>
+
+      <div class="cat-grid">
+        <a class="cat cat--her" href="for-her.html">
+          <img src="images/rouge-velours.jpg" width="600" height="800" loading="lazy" alt="Hand-held red rose bouquet in kraft paper with a sage ribbon and a handwritten tag">
+          <div class="cat-body">
+            <h3>For Her</h3>
+            <p>Garden roses, peonies and anemones in soft, loose wraps. 5 bouquets.</p>
+            <span class="inquire">View bouquets</span>
+          </div>
+        </a>
+        <a class="cat cat--him" href="for-him.html">
+          <img src="images/tournesols-du-matin.jpg" width="600" height="750" loading="lazy" alt="Hand-held sunflower and daisy bouquet in white paper with a blue wrap and cream ribbon">
+          <div class="cat-body">
+            <h3>For Him</h3>
+            <p>Sunflowers, lilies and deep red roses in navy and charcoal. 5 bouquets.</p>
+            <span class="inquire">View bouquets</span>
+          </div>
+        </a>
+        <a class="cat cat--them" href="for-them.html">
+          <img src="images/jardin-arc-en-ciel.jpg" width="600" height="750" loading="lazy" alt="Colourful mixed bouquet with a pink lily, daisies and roses in clear wrap with a pink ribbon">
+          <div class="cat-body">
+            <h3>For Them</h3>
+            <p>Rainbow mixes, pastels and bright tulips for everyone. 5 bouquets.</p>
+            <span class="inquire">View bouquets</span>
+          </div>
+        </a>
+      </div>
+
+      <p class="more">We also make weekly flower subscriptions (from €32) and wedding and event flowers (from €280). Ask us in the shop.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="overline">Visit &amp; write</span>
+        <h2 id="contact-title">Contact Us</h2>
+        <dl>
+          <dt>Find us</dt><dd>12 Quai des Fleurs, 75004 Paris</dd>
+          <dt>Opening hours</dt><dd>Tuesday to Saturday, 8:30 to 19:30<br>Sunday, 9:00 to 13:00<br>Closed on Monday</dd>
+          <dt>Call or write</dt><dd><a href="tel:+33123456789">+33 1 23 45 67 89</a><br><a href="mailto:bonjour@douceenfleur.example">bonjour@douceenfleur.example</a></dd>
+        </dl>
+      </div>
+      <div class="note">
+        <h3>Order for an occasion</h3>
+        <p>Tell us the date, your budget and the colours you like. We will reply within one working day.</p>
+        <a class="btn" href="mailto:bonjour@douceenfleur.example?subject=Flower%20order">Email your request</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="#home">Douce en Fleur</a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="for-her.html">For Her</a>
+        <a href="for-him.html">For Him</a>
+        <a href="for-them.html">For Them</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>Fleuriste · 12 Quai des Fleurs, Paris</p>
+      <p>© <span id="year">2026</span> Douce en Fleur</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
